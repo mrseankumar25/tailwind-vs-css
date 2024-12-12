@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Example</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Form</h1>
+    <form class="form">
+      <div class="fromContolWrpper">
+        <label class="formLabel" for="grid-first-name">First Name</label>
+        <input class="formControl" id="grid-first-name" type="text" placeholder="Jane">
+      </div>
+      <div class="fromContolWrpper">
+        <label class="formLabel" for="grid-last-name">Last Name</label>
+        <input class="formControl" id="grid-last-name" type="text" placeholder="Doe">
+      </div>
+      <div class="fromContolWrpper fromContolFull">
+        <label class="formLabel" for="grid-email">Email</label>
+        <input class="formControl" id="grid-email" type="email" placeholder="jane.doe@example.com">
+      </div>
+      <div class="fromContolWrpper fromContolFull">
+        <label class="formLabel" for="grid-message">Message</label>
+        <textarea class="formControl" id="grid-message" rows="5" placeholder="Your message..."></textarea>
+      </div>
+      <div class="fromContolWrpper fromContolFull">
+        <button class="fromAction" type="submit">Send</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

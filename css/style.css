@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 1.5rem auto 0;
+  padding: 1.5rem 1rem 0;
+  width: 100%;
+}
+
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 32rem;
+  width: 100%;
+}
+
+.fromContolFull {
+  grid-column: span 2;
+}
+
+.formLabel {
+  color: rgb(55 65 81 / 1);
+  display: block;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.formControl {
+  background-color: rgb(229 231 235 / 1);
+  border: 1px solid rgb(229 231 235 / 1);
+  border-radius: 0.25rem;
+  color: rgb(55 65 81 / 1);
+  line-height: 1.25;
+  outline: none;
+  padding: 0.75rem 1rem;
+  width: 100%;
+}
+
+.formControl:focus {
+  background-color: rgb(255 255 255 / 1);
+  border-color: rgb(107 114 128 / 1);
+}
+
+.fromAction {
+  background-color: rgb(249 115 22 / 1);
+  border: none;
+  border-radius: 0.25rem;
+  font: inherit;
+  font-weight: 700;
+  color: rgb(255 255 255 / 1);
+  padding: 0.5rem 1rem;
+}
+
+.fromAction:hover {
+  background-color: rgb(194 65 12 / 1);
+}
